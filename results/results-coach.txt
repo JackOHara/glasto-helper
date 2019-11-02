@@ -1,0 +1,50 @@
+Loaded tab 0
+Tab 0 has similarity score 4.49438202247191
+Loaded tab 1
+Tab 1 has similarity score 4.49438202247191
+Loaded tab 2
+Tab 2 has similarity score 4.49438202247191
+Loaded tab 3
+Tab 3 has similarity score 4.49438202247191
+Loaded tab 4
+Tab 4 has similarity score 4.49438202247191
+Loaded tab 5
+Tab 5 has similarity score 4.49438202247191
+Loaded tab 6
+Tab 6 has similarity score 4.49438202247191
+Loaded tab 8
+Loaded tab 7
+Tab 8 has similarity score 4.49438202247191
+Tab 7 has similarity score 4.49438202247191
+Loaded tab 11
+Loaded tab 9
+Loaded tab 10
+Loaded tab 12
+Loaded tab 14
+Loaded tab 13
+Tab 11 has similarity score 91.01123595505618
+Tab 9 has similarity score 91.01123595505618
+Tab 10 has similarity score 91.01123595505618
+Tab 12 has similarity score 91.01123595505618
+Tab 14 has similarity score 91.01123595505618
+Tab 13 has similarity score 91.01123595505618
+
+Resuming operation
+Loaded tab 15
+Tab 15 has similarity score 91.01123595505618
+Loaded tab 16
+Tab 16 has similarity score 91.01123595505618
+Loaded tab 0
+Tab 0 has similarity score 91.01123595505618
+Loaded tab 1
+Tab 1 has similarity score 91.01123595505618
+Loaded tab 2
+Tab 2 has similarity score 91.01123595505618
+Loaded tab 3
+Tab 3 has similarity score 37.07865168539326
+Loaded tab 4
+Tab 4 has similarity score 37.07865168539326
+
+Pausing operation
+Loaded tab 5
+Tab 5 has similarity score 37.07865168539326

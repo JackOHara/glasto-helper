@@ -231,7 +231,11 @@ class Tab {
     async initialiseTab() {
         logger.info("Spawning new tab")
         this.browser = await puppeteer.launch({
-            headless: false
+            headless: false,
+            args: ["--disable-gpu", '--no-sandbox', 
+            '--disable-setuid-sandbox', 
+            '--disable-dev-shm-usage'
+            ]
         });
         const pages = await this.browser.pages();
 

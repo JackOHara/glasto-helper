@@ -1,9 +1,14 @@
-# glasto-bot
-I did not get glasto tickets. Shite wan. 
-Ran the bot on thursday coach tickets. Kept crashing when pages timed out. Still, got through. Entered reg but couldn't pick any bus tickets due to some error about not selecting the right number, seemed to happen to a lot of people on twitter. 
-Fixed the errors and made a few good improvements over the weekend. Ran on two laptops then on Sunday. Got through on both. Froze up after submitting payment. Seemed to be a common problem on twitter once again. Waited til the 10 mins on ticket lock was over and submitted on the other page. Was too late however. Sold out. 
+# Glastonbury Ticket Helper
+## 2023 Glastonbury
+It worked! 
+
+## 2019 Glastonbury
+I did not get glasto tickets. 
+I ran the bot for Thursday coach tickets. The site kept crashing and pages timed out. Still,I eventually got through. I entered our registrations but I couldn't pick bus tickets due to an error on the page, this seemed to happen to a lot of people on twitter. 
+I fixed the errors and made a few good improvements over the weekend. I ran it on two laptops then on Sunday. I got through on both. It froze up after submitting payment. This seemed to be a common problem on twitter once again. I waited til the 10 mins on ticket lock was over and submitted on the other page. It was too late however. Sold out. 
 
 ---
+## Usage
 This app launches chrome via puppeteer. It opens a number of browsers set by the user. It will then iterate through each browser and load the set URL in a tab. It will only begin loading the page on the next browser tab when a certain amount of time has passed so it does not surpass the set rate limit (60 a minute on glastonbury site). 
 
 After each page has loads it calculates a similarity rating by comparing the text on the loaded page to the text in ```resources/live.txt``` . It is using the inner text of all elements within the body of the returned page. The browser will then automatically switch to the tab with the highest similarity rating. This tab will not be reloaded until another tab beats its similarity rating.
